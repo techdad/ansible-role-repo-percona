@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Daniel Shaw <daniel@techdad.xyz>
+  description: Installation of the official Percona Yum Repository.
+  license: MIT
+
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: EL
+      versions:
+      - all
+
+  galaxy_tags:
+    - percona
+    - repository
+    - repo
+    - yum
+
+dependencies: []

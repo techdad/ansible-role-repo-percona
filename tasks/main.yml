@@ -1,0 +1,12 @@
+---
+# tasks file for repo-percona
+
+- name: Install Percona yum repository.
+  yum:
+    name: "{{ percona_repo_url }}"
+    state: present
+
+- name: Import the Percona RPM GPG key.
+  rpm_key:
+    key: "{{ percona_repo_gpg_key_url }}"
+    state: present

@@ -1,0 +1,5 @@
+---
+# defaults file for repo-percona
+percona_repo_version: "0.1.4"
+percona_repo_url: "http://www.percona.com/downloads/percona-release/redhat/{{percona_repo_version}}/percona-release-{{percona_repo_version}}.noarch.rpm"
+percona_repo_gpg_key_url: "https://www.percona.com/downloads/percona-release/RPM-GPG-KEY-percona"
